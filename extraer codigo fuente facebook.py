@@ -16,9 +16,9 @@ from datetime import datetime
 
 
 
-service = Service(r'C:\Users\marti\Documents\Facu\Beca Maestría\Scraping\Selenium\geckodriver-v0.35.0-win64\geckodriver.exe')
+service = Service(r'C:\.....\geckodriver.exe')
 options = Options()
-profile_path = r"C:\Users\marti\AppData\Roaming\Mozilla\Firefox\Profiles\e9y6fzwr.Facultad"
+profile_path = r""
 profile = webdriver.FirefoxProfile(profile_path)
 options.add_argument('-private')
 def humanized_mouse_movement(driver, element):
@@ -60,15 +60,7 @@ print(link)
 driver.get(link)
 output_file = f"código_fuente_FB_{terminos_busqueda}.html" 
 
-#embarazadas rusas 2022 - 2023. Listo.
-#migrantes rusas argentina 2022- 2023. Listo.
-#migrantes rusos argentina 2022 - 2023. Listo.
-#inmigración rusa argentina 2022 - 2023. Listo.
-#inmigración rusos 2022 - 2023. Listo.
-#inmigración rusas 2022 - 2023. Listo.
-#migrantes rusia argentina 2022 - 2023. Listo.
-#rusos en argentina 2022 - 2023. Listo.
-#rusas en argentina 2022 - 2023. Listo.
+
     
 while True:
     time.sleep(2)
